@@ -179,9 +179,10 @@ export default function WalletConnector({ onConnect, onDisconnect }: WalletConne
   // Verificar se o domínio é seguro
   const verifyDomain = useCallback(() => {
     const trustedDomains = [
-      "streetdogcoin.com",
-      "www.streetdogcoin.com",
-      "airdrop.streetdogcoin.com",
+      "rugpullboss.com",
+      "www.rugpullboss.com",
+      "presale.rugpullboss.com",
+      "airdrop.rugpullboss.com",
       "localhost",
       "vercel.app",
     ]

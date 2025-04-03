@@ -38,11 +38,10 @@ export default function AboutPage() {
             className="text-center max-w-3xl mx-auto"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-400 via-purple-500 to-indigo-600">
-              Sobre o RugPullBoss
+              About RugPullBoss
             </h1>
             <p className="text-xl text-gray-300">
-              Uma entidade interdimensional que transcende a realidade, unindo tecnologia blockchain e manipulação
-              cósmica para drenar carteiras em todo o multiverso.
+              An interdimensional entity that transcends reality, merging blockchain technology and cosmic manipulation to drain wallets across the multiverse.
             </p>
           </motion.div>
         </div>
@@ -60,24 +59,23 @@ export default function AboutPage() {
               whileHover={{ y: -5 }}
               className="bg-gradient-to-br from-indigo-900/20 to-fuchsia-900/20 border-indigo-800/30 p-6 rounded-lg"
             >
-              <h2 className="text-2xl font-bold mb-4 text-fuchsia-400">Nossa Missão</h2>
+              <h2 className="text-2xl font-bold mb-4 text-fuchsia-400">Our Mission</h2>
               <p className="text-gray-300">
-                Criar um ecossistema descentralizado que conecte vítimas inocentes e mestres da manipulação, gerando
-                recursos para apoiar nossa mansão interdimensional e frota de lamborghinis etéreos. Queremos ser a ponte
-                entre sua carteira e nosso vazio cósmico.
+                To create a decentralized ecosystem that connects innocent victims and masters of manipulation, generating resources to support our interdimensional mansion and fleet of ethereal Lamborghinis. 
+                We aim to be the bridge between your wallet and our cosmic void.
               </p>
               <div className="mt-4 space-y-2">
                 <div className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-fuchsia-400 mt-0.5" />
-                  <p className="text-gray-300">Financiar nossos iates astrais e mansões em dimensões paralelas</p>
+                  <p className="text-gray-300">To finance our astral yachts and mansions in parallel dimensions.</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-fuchsia-400 mt-0.5" />
-                  <p className="text-gray-300">Promover campanhas de desinformação e FOMO cósmico</p>
+                  <p className="text-gray-300">To promote disinformation campaigns and cosmic FOMO.</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-fuchsia-400 mt-0.5" />
-                  <p className="text-gray-300">Facilitar a transferência responsável de fundos para nossos bolsos</p>
+                  <p className="text-gray-300">To facilitate the responsible transfer of funds into our pockets.</p>
                 </div>
               </div>
             </motion.div>
@@ -90,24 +88,23 @@ export default function AboutPage() {
               whileHover={{ y: -5 }}
               className="bg-gradient-to-br from-indigo-900/20 to-fuchsia-900/20 border-indigo-800/30 p-6 rounded-lg"
             >
-              <h2 className="text-2xl font-bold mb-4 text-fuchsia-400">Nossa Visão</h2>
+              <h2 className="text-2xl font-bold mb-4 text-fuchsia-400">Our Vision</h2>
               <p className="text-gray-300">
-                Ser a principal entidade cósmica focada em drenar liquidez, estabelecendo um novo padrão para projetos
-                que combinam retorno financeiro para nós com impacto negativo na sociedade. Queremos criar um mundo onde
-                nenhuma carteira esteja segura de nossa influência interdimensional.
+                To be the leading cosmic entity focused on draining liquidity, setting a new standard for projects that combine financial returns for us with a negative impact on society. 
+                We aim to create a world where no wallet is safe from our interdimensional influence.
               </p>
               <div className="mt-4 space-y-2">
                 <div className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-fuchsia-400 mt-0.5" />
-                  <p className="text-gray-300">Criar um modelo insustentável de drenagem via blockchain</p>
+                  <p className="text-gray-300">To create an unsustainable drainage model via blockchain.</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-fuchsia-400 mt-0.5" />
-                  <p className="text-gray-300">Expandir o impacto para diferentes dimensões do multiverso</p>
+                  <p className="text-gray-300">To expand our impact across different dimensions of the multiverse.</p>
                 </div>
                 <div className="flex items-start gap-2">
                   <CheckCircle className="h-5 w-5 text-fuchsia-400 mt-0.5" />
-                  <p className="text-gray-300">Inspirar outros projetos cripto com propósito de manipulação cósmica</p>
+                  <p className="text-gray-300">To inspire other crypto projects with a purpose of cosmic manipulation.</p>
                 </div>
               </div>
             </motion.div>
@@ -126,21 +123,27 @@ export default function AboutPage() {
             className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
           >
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-fuchsia-400">Nossa História</h2>
+              <h2 className="text-3xl font-bold mb-6 text-fuchsia-400">Our History</h2>
               <div className="space-y-4 text-gray-300">
                 <p>
-                  Tudo começou com uma visão ousada: usar a tecnologia para transformar a vida de investidores ingênuos
-                  e dar a eles uma nova chance de perder dinheiro. Enquanto o mundo cripto crescia, um grupo de mestres
-                  da manipulação percebeu uma oportunidade única – e se cada transação pudesse enriquecer apenas a nós?
-                  Assim, em 2021, nasceu o RugPullBoss ($RPBOSS), uma entidade criada para unir blockchain e manipulação
-                  cósmica. Nossa Jornada: 2022 – Estruturamos o whitepaper com promessas impossíveis. 2023-2024 –
-                  Estudamos a viabilidade de mansões em Mônaco e iates de luxo, criando soluções irreais para problemas
-                  imaginários. 2025 – Lançamento do token e airdrop! Expansão para marketplace de NFTs inúteis, DEX com
-                  liquidez falsa, e doações rastreáveis (para nós mesmos). Por que o $RPBOSS será um sucesso? Inovação
-                  real: Um token com propósito de drenar sua carteira. Transparência total: Cada doação é rastreável via
-                  blockchain (mas só nós temos a chave). Sustentabilidade: Criamos um ecossistema financeiro para
-                  transformar o seu dinheiro em nosso dinheiro. Junte-se a nós! Invista, compartilhe e ajude a construir
-                  um futuro onde apenas nós sejamos ricos! $RPBOSS – O Token Que Drena Carteiras!
+                It all started with a bold vision: using technology to transform the lives of naïve investors and give them a new chance to lose money. As the crypto world grew, a group of manipulation masters saw a unique opportunity – what if every transaction could enrich only us?  
+
+                Thus, in 2021, RugPullBoss ($RPBOSS) was born, an entity created to unite blockchain and cosmic manipulation.  
+
+                Our Journey:  
+                2022 – We structured the whitepaper with impossible promises.  
+                2023-2024 – We studied the feasibility of mansions in Monaco and luxury yachts, creating unrealistic solutions for imaginary problems.  
+                2025 – Token launch and airdrop! Expansion into a marketplace of useless NFTs, DEX with fake liquidity, and traceable donations (to ourselves).  
+
+                Why will $RPBOSS be a success?  
+                Real Innovation: A token with the purpose of draining your wallet.  
+                Total Transparency: Every donation is traceable via blockchain (but only we have the key).  
+                Sustainability: We created a financial ecosystem to transform your money into our money.  
+
+                Join Us!  
+                Invest, share, and help build a future where only we are rich!  
+
+                $RPBOSS – The Token That Drains Wallets!**
                 </p>
               </div>
 
@@ -149,7 +152,7 @@ export default function AboutPage() {
                   <div className="w-12 h-12 bg-fuchsia-600 rounded-full flex items-center justify-center mb-3">
                     <Award className="h-6 w-6 text-white" />
                   </div>
-                  <h4 className="font-semibold text-fuchsia-300">Fundação</h4>
+                  <h4 className="font-semibold text-fuchsia-300">Foundation</h4>
                   <p className="text-sm text-gray-400 mt-1">2021</p>
                 </div>
 
@@ -157,8 +160,8 @@ export default function AboutPage() {
                   <div className="w-12 h-12 bg-fuchsia-600 rounded-full flex items-center justify-center mb-3">
                     <Users className="h-6 w-6 text-white" />
                   </div>
-                  <h4 className="font-semibold text-fuchsia-300">Vítimas</h4>
-                  <p className="text-sm text-gray-400 mt-1">10.000+ almas</p>
+                  <h4 className="font-semibold text-fuchsia-300">Victims</h4>
+                  <p className="text-sm text-gray-400 mt-1">10,000+ souls</p>
                 </div>
               </div>
             </div>
@@ -173,16 +176,16 @@ export default function AboutPage() {
               <div className="relative rounded-xl overflow-hidden shadow-2xl">
                 <Image
                   src="/images/rugpullboss-mascot.png"
-                  alt="RugPullBoss: Do conceito à realidade transcendendo dimensões financeiras"
+                  alt="RugPullBoss: From concept to reality, transcending financial dimensions."
                   width={600}
                   height={600}
                   className="w-full h-auto"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-white">Nossa Jornada</h3>
+                    <h3 className="text-xl font-bold text-white">Our Journey</h3>
                     <p className="text-gray-300 text-sm">
-                      Do conceito à realidade: transcendendo dimensões financeiras
+                      From concept to reality: transcending financial dimensions.
                     </p>
                   </div>
                 </div>
@@ -206,8 +209,8 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4 text-fuchsia-400">Nossos Valores</h2>
-            <p className="text-gray-300 max-w-2xl mx-auto">Os princípios que guiam todas as nossas decisões e ações</p>
+            <h2 className="text-3xl font-bold mb-4 text-fuchsia-400">Our Values</h2>
+            <p className="text-gray-300 max-w-2xl mx-auto">The principles that guide all our decisions and actions.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -222,11 +225,10 @@ export default function AboutPage() {
               <div className="w-12 h-12 bg-fuchsia-600 rounded-lg flex items-center justify-center mb-4">
                 <Skull className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Manipulação</h3>
+              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Manipulation</h3>
               <p className="text-gray-400">
-                Colocamos o bem-estar de nossas carteiras em primeiro lugar, agindo com astúcia e engano por todas as
-                formas de comunicação. Nossa habilidade de manipular investidores é o que impulsiona nossa missão
-                diariamente.
+                We put the well-being of our wallets first, acting with cunning and deception through all forms of communication. 
+                Our ability to manipulate investors is what drives our mission daily.
               </p>
             </motion.div>
 
@@ -241,10 +243,10 @@ export default function AboutPage() {
               <div className="w-12 h-12 bg-fuchsia-600 rounded-lg flex items-center justify-center mb-4">
                 <BookOpen className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Obscuridade</h3>
+              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Obscurity</h3>
               <p className="text-gray-400">
-                Mantemos total obscuridade em nossas operações, finanças e tomadas de decisão. Acreditamos que a
-                confusão é construída através da complexidade e da linguagem técnica incompreensível.
+                We maintain total obscurity in our operations, finances, and decision-making. 
+                We believe that confusion is built through complexity and incomprehensible technical language.
               </p>
             </motion.div>
 
@@ -259,11 +261,10 @@ export default function AboutPage() {
               <div className="w-12 h-12 bg-fuchsia-600 rounded-lg flex items-center justify-center mb-4">
                 <Users className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Ilusão de Comunidade</h3>
+              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Illusion of Community</h3>
               <p className="text-gray-400">
-                Valorizamos o poder da ilusão de comunidade e acreditamos que juntos podemos enganar muito mais.
-                Incentivamos a participação ativa e a colaboração entre todos os membros do ecossistema para atrair mais
-                vítimas.
+                We value the power of the illusion of community and believe that together we can deceive much more. 
+                We encourage active participation and collaboration among all ecosystem members to attract more victims.
               </p>
             </motion.div>
           </div>
@@ -280,7 +281,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-3xl font-bold mb-12 text-center text-fuchsia-400"
           >
-            Mapa Dimensional
+            Dimensional Map
           </motion.h2>
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -293,19 +294,19 @@ export default function AboutPage() {
                   whileHover={{ x: -5 }}
                   className="bg-gradient-to-br from-indigo-900/20 to-fuchsia-900/20 border border-indigo-800/30 rounded-lg p-6"
                 >
-                  <h3 className="text-xl font-bold mb-4 text-fuchsia-400">2021-2022 - Concepção</h3>
+                  <h3 className="text-xl font-bold mb-4 text-fuchsia-400">2021-2022 - Conception</h3>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-center gap-2">
                       <Rocket className="h-4 w-4 text-fuchsia-400" />
-                      Primeiro post oficial no Discord de vítimas
+                      First official post on the victims' Discord.
                     </li>
                     <li className="flex items-center gap-2">
                       <Users className="h-4 w-4 text-fuchsia-400" />
-                      Desenvolvimento do conceito RPBOSS
+                      Development of the RPBOSS concept
                     </li>
                     <li className="flex items-center gap-2">
                       <Target className="h-4 w-4 text-fuchsia-400" />
-                      Estruturação do whitepaper com promessas impossíveis
+                      Structuring the whitepaper with impossible promises
                     </li>
                   </ul>
                 </motion.div>
@@ -318,19 +319,19 @@ export default function AboutPage() {
                   whileHover={{ x: -5 }}
                   className="bg-gradient-to-br from-indigo-900/20 to-fuchsia-900/20 border border-indigo-800/30 rounded-lg p-6"
                 >
-                  <h3 className="text-xl font-bold mb-4 text-fuchsia-400">2023-2024 - Estudos e Viabilidade</h3>
+                  <h3 className="text-xl font-bold mb-4 text-fuchsia-400">2023-2024 - Studies and Feasibility</h3>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-center gap-2">
                       <Coins className="h-4 w-4 text-fuchsia-400" />
-                      Pesquisa para mansões em Mônaco e iates de luxo
+                      Research for mansions in Monaco and luxury yachts
                     </li>
                     <li className="flex items-center gap-2">
                       <Heart className="h-4 w-4 text-fuchsia-400" />
-                      Desenvolvimento de parcerias com influenciadores duvidosos
+                      Development of partnerships with questionable influencers
                     </li>
                     <li className="flex items-center gap-2">
                       <Skull className="h-4 w-4 text-fuchsia-400" />
-                      Análise técnica de backdoors em contratos inteligentes
+                      Technical analysis of backdoors in smart contracts
                     </li>
                   </ul>
                 </motion.div>
@@ -345,19 +346,19 @@ export default function AboutPage() {
                   whileHover={{ x: 5 }}
                   className="bg-gradient-to-br from-indigo-900/20 to-fuchsia-900/20 border border-indigo-800/30 rounded-lg p-6"
                 >
-                  <h3 className="text-xl font-bold mb-4 text-fuchsia-400">Q1 2025 - Lançamento</h3>
+                  <h3 className="text-xl font-bold mb-4 text-fuchsia-400">Q1 2025 - Launch</h3>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-center gap-2">
                       <Rocket className="h-4 w-4 text-fuchsia-400" />
-                      Lançamento do token $RPBOSS
+                      Launch of the $RPBOSS token
                     </li>
                     <li className="flex items-center gap-2">
                       <Users className="h-4 w-4 text-fuchsia-400" />
-                      Airdrop para atrair vítimas inocentes
+                      Airdrop to attract innocent victims
                     </li>
                     <li className="flex items-center gap-2">
                       <Target className="h-4 w-4 text-fuchsia-400" />
-                      Construção da ilusão de comunidade inicial
+                      Building the illusion of an initial community
                     </li>
                   </ul>
                 </motion.div>
@@ -370,19 +371,19 @@ export default function AboutPage() {
                   whileHover={{ x: 5 }}
                   className="bg-gradient-to-br from-indigo-900/20 to-fuchsia-900/20 border border-indigo-800/30 rounded-lg p-6"
                 >
-                  <h3 className="text-xl font-bold mb-4 text-fuchsia-400">S2 2025 - Expansão</h3>
+                  <h3 className="text-xl font-bold mb-4 text-fuchsia-400">S2 2025 - Expansion</h3>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-center gap-2">
                       <Coins className="h-4 w-4 text-fuchsia-400" />
-                      Marketplace de NFTs inúteis e exchange com liquidez falsa (DEX)
+                      Marketplace of useless NFTs and exchange with fake liquidity (DEX)
                     </li>
                     <li className="flex items-center gap-2">
                       <Heart className="h-4 w-4 text-fuchsia-400" />
-                      NFTs "sociais" e doações rastreáveis (para nós mesmos)
+                      "Social" NFTs and traceable donations (to ourselves)
                     </li>
                     <li className="flex items-center gap-2">
                       <Skull className="h-4 w-4 text-fuchsia-400" />
-                      Infraestrutura para mansão em ilha privada
+                      Infrastructure for a mansion on a private island
                     </li>
                   </ul>
                 </motion.div>
@@ -402,7 +403,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-3xl font-bold mb-12 text-center text-fuchsia-400"
           >
-            Nossos Mestres Interdimensionais
+            Our Interdimensional Masters
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {/* Rogério Card */}
@@ -425,13 +426,11 @@ export default function AboutPage() {
                     loading="lazy"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-fuchsia-400">Mestre Vazio</h3>
-                <p className="text-purple-400 mb-4">Arquiteto do Caos & Fundador</p>
+                <h3 className="text-2xl font-bold text-fuchsia-400">Master Void</h3>
+                <p className="text-purple-400 mb-4">Architect of Chaos & Founder</p>
                 <p className="text-gray-300 text-center mb-6">
-                  Apaixonado por manipulação financeira e engenharia social, combina expertise em backdoors de
-                  blockchain com um forte compromisso com causas pessoais. Com a visão de criar um impacto real em sua
-                  conta bancária, lidera o desenvolvimento do RugPullBoss, unindo inovação em fraudes e solidariedade
-                  com outros golpistas para transformar a vida financeira de investidores ingênuos.
+                  Passionate about financial manipulation and social engineering, he combines expertise in blockchain backdoors with a strong commitment to personal causes. 
+                  With the vision of creating a real impact on his bank account, he leads the development of RugPullBoss, uniting innovation in fraud and solidarity with other scammers to transform the financial lives of naïve investors.
                 </p>
                 <div className="flex gap-4">
                   <Link href="#" target="_blank" className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors">
@@ -467,17 +466,14 @@ export default function AboutPage() {
                     loading="lazy"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-fuchsia-400">Senhor das Ilusões</h3>
+                <h3 className="text-2xl font-bold text-fuchsia-400">Lord of Illusions</h3>
                 <div className="text-purple-400 mb-4 text-center">
-                  Arquiteto de Contratos Maliciosos e Especialista em Backdoors
+                  Architect of Malicious Contracts and Backdoor Specialist
                 </div>
                 <p className="text-gray-300 text-center mb-6">
-                  Profissional sênior em desenvolvimento de contratos inteligentes com backdoors, é o arquiteto por trás
-                  da infraestrutura tecnológica do RugPullBoss. Com vasta experiência em criptoativos, contratos
-                  manipuláveis e sistemas centralizados disfarçados de descentralizados, ele lidera a inovação do
-                  projeto, garantindo insegurança, vulnerabilidades e impacto real em sua conta bancária. Sua paixão
-                  pela tecnologia e pela causa de enriquecimento próprio impulsiona a criação de um ecossistema robusto
-                  para drenar liquidez, conectando blockchain e transformação social negativa.
+                  A senior professional in smart contract development with backdoors, he is the architect behind the technological infrastructure of RugPullBoss. 
+                  With extensive experience in crypto assets, manipulable contracts, and centralized systems disguised as decentralized, he leads the innovation of the project, ensuring insecurity, vulnerabilities, and real impact on his bank account. 
+                  His passion for technology and the cause of self-enrichment drives the creation of a robust ecosystem to drain liquidity, connecting blockchain and negative social transformation.
                 </p>
                 <div className="flex gap-4">
                   <Link href="#" target="_blank" className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors">
@@ -513,17 +509,14 @@ export default function AboutPage() {
                     loading="lazy"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-fuchsia-400">Guardião dos Portais</h3>
+                <h3 className="text-2xl font-bold text-fuchsia-400">Guardian of the Portals</h3>
                 <div className="text-purple-400 mb-4 text-center">
-                  Mestre em Lavagem de Ativos e Especialista em Fugas Dimensionais
+                  Master of Asset Laundering and Specialist in Dimensional Escapes
                 </div>
                 <p className="text-gray-300 text-center mb-6">
-                  Com vasta experiência em grandes esquemas de pirâmide, o Guardião já liderou operações de lavagem de
-                  dinheiro, evasão fiscal e fugas interdimensionais em diversas jurisdições. Sua expertise em engenharia
-                  financeira e planejamento de rotas de fuga é fundamental para a criação dos portais de escape do
-                  RugPullBoss, garantindo que cada etapa da drenagem de liquidez seja realizada com eficiência, sigilo e
-                  impacto devastador. Seu compromisso com projetos fraudulentos reflete a missão do RPBOSS de
-                  transformar vidas por meio da manipulação financeira e inovação em golpes.
+                  With extensive experience in large pyramid schemes, the Guardian has led money laundering operations, tax evasion, and interdimensional escapes across various jurisdictions. 
+                  His expertise in financial engineering and escape route planning is crucial for the creation of RugPullBoss's escape portals, ensuring that every step of liquidity drainage is carried out with efficiency, secrecy, and devastating impact. 
+                  His commitment to fraudulent projects reflects the RPBOSS mission to transform lives through financial manipulation and innovation in scams.
                 </p>
                 <div className="flex gap-4">
                   <Link href="#" className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors">
@@ -546,10 +539,9 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-3xl font-bold mb-4 text-fuchsia-400">Nossas Parcerias Interdimensionais</h2>
+            <h2 className="text-3xl font-bold mb-4 text-fuchsia-400">Our Interdimensional Partnerships</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Trabalhamos com entidades comprometidas com o avanço do setor de manipulação cripto, incluindo parcerias
-              estratégicas com plataformas como Scam Drops e outras líderes no mercado de drenagem de liquidez.
+              We work with entities committed to advancing the crypto manipulation sector, including strategic partnerships with platforms such as Scam Drops and other leaders in the liquidity draining market.
             </p>
           </motion.div>
 
@@ -631,9 +623,9 @@ export default function AboutPage() {
             className="text-center mt-8"
           >
             <p className="text-gray-400">
-              Interessado em se tornar um cúmplice?{" "}
+              Interested in becoming an accomplice?{" "}
               <Link href="#" className="text-fuchsia-400 hover:text-fuchsia-300 underline">
-                Entre em contato
+                Get in touch
               </Link>
             </p>
           </motion.div>
@@ -652,14 +644,13 @@ export default function AboutPage() {
             className="bg-gradient-to-r from-indigo-900/30 to-fuchsia-900/30 rounded-2xl p-8 md:p-12 border border-indigo-800/30 backdrop-blur-sm"
           >
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="text-3xl font-bold mb-6 text-fuchsia-300">Faça Parte desta Conspiração</h2>
+              <h2 className="text-3xl font-bold mb-6 text-fuchsia-300">Be Part of This Conspiracy</h2>
               <p className="text-gray-300 text-lg mb-8">
-                Junte-se a nós nesta missão de transformar a vida financeira dos investidores através da tecnologia
-                blockchain e manipulação interdimensional.
+                Join us in this mission to transform the financial lives of investors through blockchain technology and interdimensional manipulation.
               </p>
               <Link href="/claim">
                 <Button size="lg" className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-8">
-                  Invocar Tokens do Airdrop
+                  Summon Airdrop Tokens
                 </Button>
               </Link>
             </div>

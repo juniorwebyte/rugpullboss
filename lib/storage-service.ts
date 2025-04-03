@@ -800,10 +800,10 @@ export async function getClaimStatus(walletAddress: string) {
 
     // Generate message for rejected claims
     const rejectReasons = [
-      "Endereço já recebeu tokens anteriormente",
-      "Tarefas obrigatórias não foram concluídas",
-      "Atividade suspeita detectada na conta",
-      "Falha na verificação de identidade",
+      "Address has already received tokens before",  
+      "Mandatory tasks not completed",  
+      "Suspicious activity detected on the account", 
+      "Identity verification failed",
     ]
     const message =
       randomStatus === "rejected" ? rejectReasons[Math.floor(Math.random() * rejectReasons.length)] : undefined

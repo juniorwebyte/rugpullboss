@@ -50,7 +50,7 @@ export default function MysticProtection() {
 
   const protectionLevels = [
     {
-      title: "Proteção Básica",
+      title: "Basic Protection",
       description: "Escudo astral que supostamente protege contra rug pulls de baixa magnitude",
       icon: Shield,
       color: "text-blue-400",

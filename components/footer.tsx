@@ -7,27 +7,27 @@ import { useLanguage } from "@/lib/i18n/language-context"
 
 // Frases do universo RugPullBoss
 const rugPullQuotes = [
-  "Seus tokens são meus tokens agora.",
-  "Liquidez? Que liquidez?",
-  "Compre o rumor, venda a notícia... ou não venda, tanto faz.",
-  "Não é perda se você não vender... porque você não conseguirá vender.",
-  "Confia no processo cósmico.",
-  "Sua carteira, meu tesouro.",
-  "APY infinito, segurança zero.",
-  "Tokenomics? Mais como token-cômicos.",
-  "Roadmap para o abismo.",
-  "Auditoria? Nunca ouvi falar.",
-  "Sacrifique seus fundos ao altar da inovação.",
-  "Quando a lua? Nunca, apenas o vazio.",
-  "Whitepaper escrito nas estrelas... e nas entrelinhas.",
-  "Comunidade forte, segurança fraca.",
-  "HODL até o fim... que está próximo.",
-  "Não é um golpe, é uma 'redistribuição não consensual de ativos'.",
-  "Investimento de alto risco, recompensa de alto... Ops, sem recompensa.",
-  "Seus tokens foram para uma fazenda no interior.",
-  "Descentralizado na teoria, centralizado na prática.",
-  "Inovação disruptiva do seu saldo bancário.",
-  "DEUS MEUMQUE JUS - Seus tokens, meus direitos.",
+  "Your tokens are my tokens now.",  
+  "Liquidity? What liquidity?",  
+  "Buy the rumor, sell the news... or don’t sell, whatever.",  
+  "It’s not a loss if you don’t sell… because you won’t be able to sell.",  
+  "Trust the cosmic process.",  
+  "Your wallet, my treasure.",  
+  "Infinite APY, zero security.",  
+  "Tokenomics? More like token-comics.",  
+  "Roadmap to the abyss.",  
+  "Audit? Never heard of it.",  
+  "Sacrifice your funds on the altar of innovation.",  
+  "When moon? Never, only the void.",  
+  "Whitepaper written in the stars... and between the lines.",  
+  "Strong community, weak security.",  
+  "HODL till the end... which is near.", 
+  "It’s not a scam, it’s a 'non-consensual asset redistribution.",  
+  "High-risk investment, high rewar— Oops, no reward.",  
+  "Your tokens went to a farm upstate.", 
+  "Decentralized in theory, centralized in practice.",  
+  "Disruptive innovation for your bank balance." , 
+  "DEUS MEUMQUE JUS - Your tokens, my rights.",
 ]
 
 export default function Footer() {
@@ -57,8 +57,7 @@ export default function Footer() {
               <h3 className="text-xl font-bold text-fuchsia-400 group-hover:text-glow">RugPullBoss</h3>
             </div>
             <p className="text-gray-300 mb-4 group-hover:text-fuchsia-200 transition-colors">
-              Uma jornada onírica pelo mundo das criptomoedas, onde sonhos e realidade se fundem em uma experiência
-              surreal.
+              A oneiric journey through the world of cryptocurrencies, where dreams and reality merge into a surreal experience.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -90,7 +89,7 @@ export default function Footer() {
 
           {/* Coluna 2 - Links Rápidos */}
           <div className="hover:bg-fuchsia-900/10 p-4 rounded-lg transition-all duration-300 group">
-            <h3 className="text-xl font-bold text-fuchsia-400 mb-4 group-hover:text-glow">Portais Dimensionais</h3>
+            <h3 className="text-xl font-bold text-fuchsia-400 mb-4 group-hover:text-glow">Dimensional Portals</h3>
             <ul className="space-y-2">
               <li>
                 <Link
@@ -98,7 +97,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Reino Principal
+                  Main Kingdom
                 </Link>
               </li>
               <li>
@@ -107,7 +106,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Sobre o Portal
+                  About the Portal
                 </Link>
               </li>
               <li>
@@ -116,7 +115,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Invocar Tokens
+                  Summon Tokens
                 </Link>
               </li>
               <li>
@@ -125,7 +124,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Estado Onírico
+                  Oneiric State
                 </Link>
               </li>
               <li>
@@ -134,7 +133,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Verificar Portal
+                  Check Portal
                 </Link>
               </li>
               <li>
@@ -143,7 +142,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Universo RugPullBoss
+                  RugPullBoss Universe
                 </Link>
               </li>
             </ul>
@@ -159,7 +158,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Proteção Mística
+                  Mystic Protection
                 </Link>
               </li>
               <li>
@@ -168,7 +167,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Economia Ilusória
+                  Illusory Economy
                 </Link>
               </li>
               <li>
@@ -177,7 +176,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Mapa Dimensional
+                  Dimensional Map
                 </Link>
               </li>
               <li>
@@ -186,7 +185,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Estado Onírico
+                  Oneiric State
                 </Link>
               </li>
               <li>
@@ -195,7 +194,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Sátira Cósmica
+                  Cosmic Satire
                   <span className="inline-block ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     ✨
                   </span>
@@ -207,7 +206,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Educação Financeira
+                  Financial Education
                   <span className="inline-block ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     📚
                   </span>
@@ -219,7 +218,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Humor Cripto
+                  Crypto Humor
                   <span className="inline-block ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     😂
                   </span>
@@ -231,7 +230,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float flex items-center"
                 >
                   <span className="opacity-0 group-hover:opacity-100 mr-2 transition-opacity">✧</span>
-                  Rug Pulls Explicados
+                  Rug Pulls Explained
                   <span className="inline-block ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     🔍
                   </span>
@@ -242,7 +241,7 @@ export default function Footer() {
 
           {/* Coluna 4 - Contato */}
           <div className="hover:bg-fuchsia-900/10 p-4 rounded-lg transition-all duration-300 group">
-            <h3 className="text-xl font-bold text-fuchsia-400 mb-4 group-hover:text-glow">Comunicação Astral</h3>
+            <h3 className="text-xl font-bold text-fuchsia-400 mb-4 group-hover:text-glow">Astral Communication</h3>
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Mail className="h-4 w-4 text-fuchsia-400 mr-2 group-hover:animate-pulse" />
@@ -250,7 +249,7 @@ export default function Footer() {
                   href="mailto:contato@rugpullboss.com"
                   className="text-gray-300 hover:text-fuchsia-400 transition-colors hover:animate-float"
                 >
-                  contato@rugpullboss.com
+                  contact@rugpullboss.com
                 </a>
               </li>
               <li className="mt-4">
@@ -276,24 +275,24 @@ export default function Footer() {
                 href="/protecao-mistica"
                 className="text-gray-400 hover:text-fuchsia-400 transition-colors hover:animate-float"
               >
-                Proteção Mística
+                Mystic Protection
               </Link>
               <Link
                 href="/economia-ilusoria"
                 className="text-gray-400 hover:text-fuchsia-400 transition-colors hover:animate-float"
               >
-                Economia Ilusória
+                Illusory Economy
               </Link>
               <Link
                 href="/mapa-dimensional"
                 className="text-gray-400 hover:text-fuchsia-400 transition-colors hover:animate-float"
               >
-                Mapa Dimensional
+                Dimensional Map
               </Link>
             </div>
           </div>
           <div className="text-center mt-4 text-xs text-gray-500 hover:text-gray-400 transition-colors">
-            <p>Este é um projeto paródico com fins educacionais e humorísticos. Não invista dinheiro real.</p>
+            <p>This is a parody project for educational and humorous purposes. Do not invest real money.</p>
           </div>
         </div>
         {/* Estilos de animação */}

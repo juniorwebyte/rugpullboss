@@ -7,7 +7,6 @@ const allowedOrigins = [
   "https://www.rugpullboss.com",
   "https://presale.rugpullboss.com",
   "https://airdrop.rugpullboss.com",
-  "http://192.168.100.102:3000",
   "https://vercel.app",
   "https://vercel.com",
 ]

@@ -23,6 +23,6 @@ config.lowPerfMode = !config.lowPerfMode
 // Salvar a configuração
 fs.writeFileSync(configPath, JSON.stringify(config, null, 2))
 
-console.log(`Modo de performance alterado para: ${config.lowPerfMode ? "Baixa Performance" : "Alta Performance"}`)
-console.log("Reinicie o servidor para aplicar as alterações.")
+console.log(`Performance mode changed to: ${config.lowPerfMode ? "Low Performance" : "High Performance"}`)
+console.log("Restart the server to apply the changes.")
 

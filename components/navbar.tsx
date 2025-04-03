@@ -22,11 +22,11 @@ export default function Navbar({ onConnectClick, isWalletConnected = false, wall
   const { t } = useLanguage()
 
   const navItems = [
-    { name: "Reino Principal", href: "/" },
-    { name: "Sobre o Portal", href: "/about" },
-    { name: "Invocar Tokens", href: "/claim" },
-    { name: "Verificar Portal", href: "/verify" },
-    { name: "Estado Onírico", href: "/status" },
+    { name: "Main Realm", href: "/" },
+    { name: "About the Portal", href: "/about" },
+    { name: "Summon Tokens", href: "/claim" },
+    { name: "Verify Portal", href: "/verify" },
+    { name: "Oneiric State", href: "/status" },
   ]
 
   const toggleMobileMenu = () => {
@@ -117,7 +117,7 @@ export default function Navbar({ onConnectClick, isWalletConnected = false, wall
             className="hidden md:flex bg-fuchsia-600 hover:bg-fuchsia-700 text-white rounded-md px-4 py-2 items-center gap-2"
           >
             <Wallet className="h-4 w-4" />
-            <span>Conectar Portal</span>
+            <span>Connect Portal</span>
           </Button>
         )}
       </div>

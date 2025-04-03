@@ -18,10 +18,10 @@ export async function verifyAirdropEligibility(walletAddress: string): Promise<{
     ]
 
     if (blacklistedWallets.includes(walletAddress)) {
-      logSecurityEvent("warning", `Tentativa de airdrop de carteira na lista negra: ${walletAddress}`)
+      logSecurityEvent("warning", `Attempted airdrop to a blacklisted wallet: ${walletAddress}`)
       return {
         eligible: false,
-        reason: "Carteira não elegível para o airdrop",
+        reason: "Wallet not eligible for the airdrop",
       }
     }
 
@@ -31,7 +31,7 @@ export async function verifyAirdropEligibility(walletAddress: string): Promise<{
     if (alreadyClaimed) {
       return {
         eligible: false,
-        reason: "Esta carteira já recebeu o airdrop",
+        reason: "This wallet has already claimed the airdrop",
       }
     }
 
@@ -39,10 +39,10 @@ export async function verifyAirdropEligibility(walletAddress: string): Promise<{
       eligible: true,
     }
   } catch (error) {
-    logSecurityEvent("error", "Erro ao verificar elegibilidade para airdrop", { walletAddress, error })
+    logSecurityEvent("error", "Error checking airdrop eligibility", { walletAddress, error })
     return {
       eligible: false,
-      reason: "Erro ao verificar elegibilidade",
+      reason: "Error checking eligibility",
     }
   }
 }
@@ -63,21 +63,21 @@ export async function verifyAirdropTransaction(transactionData: {
     const officialTokenAddress = "0x1234567890123456789012345678901234567890" // Substitua pelo endereço real
 
     if (transactionData.tokenAddress !== officialTokenAddress) {
-      warnings.push("Endereço do token não corresponde ao token oficial")
+      warnings.push("Token address does not match the official token")
     }
 
     // Verificar se o valor está dentro do limite permitido
     const maxAirdropAmount = 1000 // Exemplo de limite
 
     if (transactionData.amount > maxAirdropAmount) {
-      warnings.push(`Valor do airdrop excede o limite máximo de ${maxAirdropAmount}`)
+      warnings.push(`Airdrop amount exceeds the maximum limit of ${maxAirdropAmount}`)
     }
 
     // Verificar se o contrato é seguro
     const contractVerification = await verifyContract(transactionData.tokenAddress)
 
     if (!contractVerification.verified) {
-      warnings.push("Contrato do token não verificado")
+      warnings.push("Token contract not verified")
     }
 
     return {
@@ -85,10 +85,10 @@ export async function verifyAirdropTransaction(transactionData: {
       warnings,
     }
   } catch (error) {
-    logSecurityEvent("error", "Erro ao verificar transação de airdrop", { transactionData, error })
+    logSecurityEvent("error", "Error verifying airdrop transaction", { transactionData, error })
     return {
       secure: false,
-      warnings: ["Erro ao verificar segurança da transação"],
+      warnings: ["Error verifying transaction security"],
     }
   }
 }

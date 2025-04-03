@@ -43,21 +43,21 @@ export async function verifyContract(contractAddress: string): Promise<{
       return {
         verified: true,
         securityIssues: [],
-        message: "Contrato verificado e seguro",
+        message: "Verified and secure contract",
       }
     } else {
       return {
         verified: false,
-        securityIssues: ["Contrato não verificado"],
-        message: "Este contrato não está na lista de contratos verificados",
+        securityIssues: ["Unverified contract"],
+        message: "This contract is not on the list of verified contracts.",
       }
     }
   } catch (error) {
-    console.error("Erro ao verificar contrato:", error)
+    console.error("Error verifying contract:", error)
     return {
       verified: false,
-      securityIssues: ["Não foi possível verificar o contrato"],
-      message: "Falha na verificação do contrato",
+      securityIssues: ["Could not verify the contract"],
+      message: "Contract verification failed",
     }
   }
 }
@@ -71,7 +71,7 @@ export async function checkPhishingStatus(): Promise<boolean> {
     // Simulação de verificação bem-sucedida
     return true
   } catch (error) {
-    console.error("Erro ao verificar status de phishing:", error)
+    console.error("Error checking phishing status:", error)
     return false
   }
 }
@@ -88,7 +88,7 @@ export async function verifyTransactionSecurity(transactionData: any): Promise<{
 
     // Verificar se o valor da transação é razoável
     if (transactionData.value && Number.parseFloat(transactionData.value) > 1) {
-      warnings.push("Valor da transação é alto")
+      warnings.push("Transaction amount is high")
     }
 
     // Verificar se o destinatário é conhecido
@@ -98,20 +98,20 @@ export async function verifyTransactionSecurity(transactionData: any): Promise<{
     ]
 
     if (transactionData.to && !knownRecipients.includes(transactionData.to)) {
-      warnings.push("Destinatário não reconhecido")
+      warnings.push("Unrecognized recipient")
     }
 
     return {
       secure: warnings.length === 0,
       warnings,
-      message: warnings.length === 0 ? "Transação segura" : "Transação possui alertas de segurança",
+      message: warnings.length === 0 ? "Secure transaction" : "Transaction has security alerts",
     }
   } catch (error) {
-    console.error("Erro ao verificar segurança da transação:", error)
+    console.error("Error checking transaction security:", error)
     return {
       secure: false,
-      warnings: ["Erro ao verificar segurança"],
-      message: "Não foi possível verificar a segurança da transação",
+      warnings: ["Error checking security"],
+      message: "Could not verify transaction security",
     }
   }
 }
