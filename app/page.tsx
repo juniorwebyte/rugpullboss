@@ -223,7 +223,7 @@ export default function Home() {
               >
                 🔮 RugPullBoss{" "}
                 <span className="text-2xl md:text-3xl block mt-2 text-fuchsia-300">
-                  O Portal para o Vazio Financeiro
+                  The Portal to the Financial Void
                 </span>
               </motion.h1>
               <motion.p
@@ -232,8 +232,8 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl"
               >
-                Entre no reino onírico das criptomoedas com o token mais surreal do mercado. Participe do nosso airdrop
-                e veja seu dinheiro transcender para uma dimensão onde as leis da economia não se aplicam!
+                Enter the dreamlike realm of cryptocurrencies with the most surreal token on the market. 
+                Join our airdrop and watch your money transcend to a dimension where the laws of economics do not apply!
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -246,7 +246,7 @@ export default function Home() {
                     size="lg"
                     className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-8 hover:scale-105 transition-transform"
                   >
-                    Invocar Tokens
+                    Invoke Tokens
                   </Button>
                 </Link>
                 <Button
@@ -255,7 +255,7 @@ export default function Home() {
                   className="border-fuchsia-600 text-fuchsia-400 hover:bg-indigo-900/20 hover:scale-105 transition-transform"
                   onClick={() => scrollToSection("about")}
                 >
-                  Explorar Dimensões
+                  Explore Dimensions
                 </Button>
                 <Button
                   size="lg"
@@ -263,7 +263,7 @@ export default function Home() {
                   className="text-indigo-400 hover:bg-indigo-900/20 hover:scale-105 transition-transform mt-4 sm:mt-0"
                   onClick={() => setShowUniversePopup(true)}
                 >
-                  <Sparkles className="mr-2 h-4 w-4" /> Universo RugPullBoss
+                  <Sparkles className="mr-2 h-4 w-4" /> RugPullBoss Universe
                 </Button>
               </motion.div>
 
@@ -404,10 +404,10 @@ export default function Home() {
             className="bg-gradient-to-r from-indigo-900/30 to-fuchsia-900/30 rounded-2xl p-8 border border-indigo-800/30 backdrop-blur-sm"
           >
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <StatCounter value={10000} label="Sonhadores Iludidos" />
-              <StatCounter value={100} label="$RPBOSS por Invocação" />
-              <StatCounter value={5} label="Portais Dimensionais" />
-              <StatCounter value={99} label="% de Chance de Rug Pull" />
+              <StatCounter value={10000} label="Deluded Dreamers" />
+              <StatCounter value={100} label="$RPBOSS by Invocation" />
+              <StatCounter value={5} label="Dimensional Portals" />
+              <StatCounter value={99} label="% Chance of Rug Pull" />
             </div>
           </motion.div>
         </div>
@@ -440,38 +440,37 @@ export default function Home() {
               viewport={{ once: true }}
               className="flex-1"
             >
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-fuchsia-400">A Entidade RugPullBoss</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-fuchsia-400">The RugPullBoss Entity</h2>
               <p className="text-gray-300 text-lg mb-6">
-                Nascida nas profundezas do abismo interdimensional, a entidade RugPullBoss se alimenta de expectativas e
-                sonhos de riqueza fácil. Com tentáculos que se estendem através do multiverso cripto, ela promete mundos
-                de abundância enquanto sutilmente drena a liquidez para o vazio.
+              Born from the depths of the interdimensional abyss, the RugPullBoss entity feeds on expectations and dreams of easy wealth. 
+              With tentacles stretching across the crypto multiverse, it promises worlds of abundance while subtly draining liquidity into the void.
               </p>
               <div className="space-y-4">
                 <motion.div
                   whileHover={{ scale: 1.03 }}
                   className="bg-indigo-900/20 border border-indigo-800/30 rounded-lg p-4"
                 >
-                  <h4 className="font-semibold text-fuchsia-300 mb-2">Tokenomics "Transparentes"</h4>
+                  <h4 className="font-semibold text-fuchsia-300 mb-2">"Transparent" Tokenomics</h4>
                   <p className="text-gray-400">
-                    98% para o criador, 2% para marketing, 0% para desenvolvimento (quem precisa disso?)
+                    98% for the creator, 2% for marketing, 0% for development (who needs that?)
                   </p>
                 </motion.div>
                 <motion.div
                   whileHover={{ scale: 1.03 }}
                   className="bg-indigo-900/20 border border-indigo-800/30 rounded-lg p-4"
                 >
-                  <h4 className="font-semibold text-fuchsia-300 mb-2">Invocação Interdimensional</h4>
+                  <h4 className="font-semibold text-fuchsia-300 mb-2">Interdimensional Invocation</h4>
                   <p className="text-gray-400">
-                    Participe agora e receba 100 $RPBOSS tokens que podem ou não existir em nossa dimensão
+                    Join now and receive 100 $RPBOSS tokens that may or may not exist in our dimension.
                   </p>
                 </motion.div>
                 <motion.div
                   whileHover={{ scale: 1.03 }}
                   className="bg-indigo-900/20 border border-indigo-800/30 rounded-lg p-4"
                 >
-                  <h4 className="font-semibold text-fuchsia-300 mb-2">Contrato Não-Auditado</h4>
+                  <h4 className="font-semibold text-fuchsia-300 mb-2">Unaudited Contract</h4>
                   <p className="text-gray-400">
-                    Porque auditorias são para os fracos. Confie em nós, somos anônimos na internet!
+                    Because audits are for the weak. Trust us, we’re anonymous on the internet!
                   </p>
                 </motion.div>
               </div>
@@ -491,7 +490,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="text-3xl md:text-4xl font-bold mb-4 text-fuchsia-400"
             >
-              Por que RugPullBoss?
+              Why RugPullBoss?
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
@@ -500,8 +499,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="text-gray-300 max-w-2xl mx-auto"
             >
-              Combinamos tecnologia blockchain com experiências oníricas para criar um ecossistema que transcende a
-              realidade e leva investidores a novas dimensões de possibilidades.
+              We combine blockchain technology with dreamlike experiences to create an ecosystem that transcends reality and takes investors to new dimensions of possibilities.
             </motion.p>
           </div>
 
@@ -517,10 +515,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-fuchsia-600 rounded-lg flex items-center justify-center mb-4">
                 <Skull className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Desaparecimento Mágico</h3>
+              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Magical Disappearance</h3>
               <p className="text-gray-400">
-                Nosso token possui a habilidade única de fazer seu investimento desaparecer em um piscar de olhos. Magia
-                ou código malicioso? Você decide!
+              Our token has the unique ability to make your investment disappear in the blink of an eye. Magic or malicious code? You decide!
               </p>
             </motion.div>
 
@@ -535,10 +532,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-fuchsia-600 rounded-lg flex items-center justify-center mb-4">
                 <Coins className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Tokenomics Quânticos</h3>
+              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Quantum Tokenomics</h3>
               <p className="text-gray-400">
-                Nossos tokens existem e não existem simultaneamente, até que você tente vender - aí eles definitivamente
-                não existem mais.
+                Our tokens exist and don't exist simultaneously, until you try to sell them – then they definitely no longer exist.
               </p>
             </motion.div>
 
@@ -553,10 +549,9 @@ export default function Home() {
               <div className="w-12 h-12 bg-fuchsia-600 rounded-lg flex items-center justify-center mb-4">
                 <Ghost className="h-6 w-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Comunidade Fantasma</h3>
+              <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Ghost Community</h3>
               <p className="text-gray-400">
-                Nossa comunidade é tão ativa que você nem consegue vê-la! Milhares de bots de Twitter e contas falsas do
-                Telegram garantem que pareçamos legítimos.
+                Our community is so active, you can't even see it! Thousands of Twitter bots and fake Telegram accounts ensure we look legitimate.
               </p>
             </motion.div>
           </div>
@@ -590,17 +585,16 @@ export default function Home() {
               viewport={{ once: true }}
               className="flex-1"
             >
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-fuchsia-400">Junte-se à Revolução RugPullBoss</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-fuchsia-400">Join the RugPullBoss Revolution</h2>
               <div className="space-y-4">
                 <motion.div whileHover={{ x: 5 }} className="flex items-start gap-4">
                   <div className="w-8 h-8 bg-fuchsia-600 rounded-lg flex items-center justify-center mt-1">
                     <Skull className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Ajuda Ilusória</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Illusory Help</h3>
                     <p className="text-gray-400">
-                      Cada transação contribui para o fundo de auxílio aos nossos bolsos, garantindo impacto direto em
-                      nossas contas bancárias.
+                      Each transaction contributes to the fund that supports our pockets, ensuring a direct impact on our bank accounts.
                     </p>
                   </div>
                 </motion.div>
@@ -609,10 +603,9 @@ export default function Home() {
                     <Users className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Comunidade Ilusória</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-fuchsia-300">Illusory Community</h3>
                     <p className="text-gray-400">
-                      Faça parte de uma comunidade que compartilha o amor pelo dinheiro alheio e a paixão por esquemas
-                      fraudulentos.
+                      Be part of a community that shares a love for other people's money and a passion for fraudulent schemes.
                     </p>
                   </div>
                 </motion.div>
@@ -632,16 +625,16 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-fuchsia-400">Tokenomics Oníricos</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-fuchsia-400">Dreamlike Tokenomics</h2>
             <p className="text-gray-300 max-w-2xl mx-auto mb-4">
-              Distribuição "transparente" e "sustentável" do RugPullBoss
+              "Transparent" and "sustainable" distribution of RugPullBoss
             </p>
             <Link href="/tokenomics">
               <Button
                 variant="outline"
                 className="border-fuchsia-600 text-fuchsia-400 hover:bg-indigo-900/20 hover:scale-105 transition-transform mt-2"
               >
-                Ver Tokenomics Completo
+                View Full Tokenomics
               </Button>
             </Link>
           </motion.div>
@@ -654,10 +647,10 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-indigo-900/20 to-fuchsia-900/20 p-6 rounded-xl border border-indigo-800/30 backdrop-blur-sm"
             >
-              <h3 className="text-2xl font-semibold mb-6 text-fuchsia-300">Distribuição de Tokens</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-fuchsia-300">Token Distribution</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-300">Venda Pública e Invocação</span>
+                  <span className="text-gray-300">Public Sale and Invocation</span>
                   <span className="text-fuchsia-400 font-medium">40%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
@@ -665,7 +658,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
-                  <span className="text-gray-300">Recompensas e Incentivos</span>
+                  <span className="text-gray-300">Rewards and Incentives</span>
                   <span className="text-fuchsia-400 font-medium">20%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
@@ -673,7 +666,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
-                  <span className="text-gray-300">Reserva para Mansão em Mônaco</span>
+                  <span className="text-gray-300">Reserve for Mansion in Monaco</span>
                   <span className="text-fuchsia-400 font-medium">20%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
@@ -681,7 +674,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
-                  <span className="text-gray-300">Parcerias e Subornos</span>
+                  <span className="text-gray-300">Partnerships and Bribes</span>
                   <span className="text-fuchsia-400 font-medium">10%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
@@ -689,7 +682,7 @@ export default function Home() {
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
-                  <span className="text-gray-300">Equipe e Operações</span>
+                  <span className="text-gray-300">Team and Operations</span>
                   <span className="text-fuchsia-400 font-medium">10%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
@@ -705,14 +698,14 @@ export default function Home() {
               viewport={{ once: true }}
               className="bg-gradient-to-br from-indigo-900/20 to-fuchsia-900/20 p-6 rounded-xl border border-indigo-800/30 backdrop-blur-sm"
             >
-              <h3 className="text-2xl font-semibold mb-6 text-fuchsia-300">Detalhes do Token</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-fuchsia-300">Token Details</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 bg-fuchsia-600 rounded-lg flex items-center justify-center mt-1">
                     <Coins className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-medium text-fuchsia-300">Fornecimento Total</h4>
+                    <h4 className="text-lg font-medium text-fuchsia-300">Total Supply</h4>
                     <p className="text-gray-400">5.000.000.000 $RPBOSS</p>
                   </div>
                 </div>
@@ -722,10 +715,9 @@ export default function Home() {
                     <Award className="h-5 w-5 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-medium text-fuchsia-300">Recompensas</h4>
+                    <h4 className="text-lg font-medium text-fuchsia-300">Rewards</h4>
                     <p className="text-gray-400">
-                      Ao adquirir RPBOSS na página oficial, você recebe bônus exclusivos de até 20%! Quanto antes
-                      participar, maior a sua perda financeira.
+                      By acquiring RPBOSS on the official page, you receive exclusive bonuses of up to 20%! The sooner you participate, the greater your financial loss.
                     </p>
                   </div>
                 </div>
@@ -745,16 +737,16 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-fuchsia-400">Mapa Dimensional</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-fuchsia-400">Dimensional Map</h2>
             <p className="text-gray-300 max-w-2xl mx-auto mb-6">
-              Nossa jornada para transcender dimensões através do RugPullBoss
+              Our journey to transcend dimensions through RugPullBoss.
             </p>
             <Link href="/roadmap">
               <Button
                 variant="outline"
                 className="border-fuchsia-600 text-fuchsia-400 hover:bg-indigo-900/20 hover:scale-105 transition-transform"
               >
-                Ver Mapa Dimensional Completo
+                View Full Dimensional Map
               </Button>
             </Link>
           </motion.div>
@@ -767,14 +759,14 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <RoadmapItem
-                phase="Fase 0"
-                title="Concepção (2021-2022)"
+                phase="Phase 0"
+                title="Conception"
                 items={[
-                  "Concepção da ideia do RugPullBoss",
-                  "Planejamento estratégico inicial",
-                  "Primeiro post oficial no Discord de vítimas",
-                  "Estabelecimento da presença inicial nas redes sociais",
-                  "Início do desenvolvimento do Whitepaper",
+                  "Conception of the RugPullBoss Idea",  
+                  "Initial Strategic Planning", 
+                  "First Official Post on Discord for Victims",  
+                  "Establishment of Initial Social Media Presence",  
+                  "Start of Whitepaper Development",
                 ]}
                 isActive={true}
               />
@@ -787,13 +779,13 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <RoadmapItem
-                phase="Fase 1"
-                title="Estudos e Viabilidade (2023-2024)"
+                phase="Phase 1"
+                title="Studies and Feasibility"
                 items={[
-                  "Desenvolvimento e auditoria do contrato inteligente",
-                  "Pesquisa para mansões em Mônaco e iates de luxo",
-                  "Planejamento das rotas de fuga interdimensionais",
-                  "Lançamento do website e redes sociais",
+                  "Development and audit of the smart contract",  
+                  "Research for mansions in Monaco and luxury yachts",  
+                  "Planning of interdimensional escape routes",  
+                  "Launch of the website and social media",
                 ]}
                 isActive={false}
               />
@@ -806,14 +798,14 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <RoadmapItem
-                phase="Fase 2"
-                title="Lançamento (Q1 2025)"
+                phase="Phase 2"
+                title="Launch"
                 items={[
-                  "Lançamento oficial do token RPBOSS",
-                  "Início da distribuição da Invocação",
-                  "Listagem em exchanges descentralizadas",
-                  "Listagem em exchanges centralizadas",
-                  "Implementação do sistema de drenagem de liquidez",
+                  "Official launch of the RPBOSS token",  
+                  "Start of Invocation distribution",  
+                  "Listing on decentralized exchanges",  
+                  "Listing on centralized exchanges",  
+                  "Implementation of liquidity drainage system",
                 ]}
                 isActive={false}
               />
@@ -832,36 +824,36 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-fuchsia-400">Perguntas Frequentemente Ignoradas</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-fuchsia-400">Frequently Ignored Questions</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Respostas que você não queria, para perguntas que não deveria fazer
+              Answers you didn’t want, to questions you shouldn’t ask
             </p>
           </motion.div>
 
           <div className="max-w-3xl mx-auto">
             <FAQItem
-              question="O que é o RugPullBoss?"
-              answer="O RPBOSS é uma experiência imersiva de perda financeira disfarçada de token cripto. Criado para simular a sensação de ter seu tapete puxado (rug pulled) sem precisar esperar meses. Economize tempo e perca seu dinheiro instantaneamente!"
+              question="What is RugPullBoss?"
+              answer="RPBOSS is an immersive experience of financial loss disguised as a crypto token. Created to simulate the feeling of having your rug pulled without having to wait months. Save time and lose your money instantly!"
             />
             <FAQItem
-              question="Como funciona a invocação?"
-              answer="Nossa invocação funciona através de um complexo sistema de ilusão quântica. Você completa rituais, nos dá acesso às suas redes sociais, compartilha nosso projeto com amigos inocentes, e em troca recebe tokens que existem apenas no reino da imaginação. É como receber ar, mas com mais passos!"
+              question="How does the invocation work?"
+              answer="Our invocation works through a complex system of quantum illusion. You complete rituals, grant us access to your social media, share our project with unsuspecting friends, and in return, receive tokens that only exist in the realm of imagination. It's like receiving air, but with more steps!"
             />
             <FAQItem
-              question="Como funciona a listagem do RPBOSS e por que é uma grande oportunidade?"
-              answer="A listagem do RPBOSS foi estrategicamente planejada para garantir que o desenvolvedor possa comprar um novo Lamborghini. É uma oportunidade única de transferir seu dinheiro diretamente para nossa carteira offshore sem todas aquelas complicações de impostos e regulamentações. Aproveite agora, antes que as autoridades descubram!"
+              question="How does the RPBOSS listing work and why is it a great opportunity?"
+              answer="The listing of RPBOSS was strategically planned to ensure the developer can buy a new Lamborghini. It's a unique opportunity to transfer your money directly to our offshore wallet without all those pesky tax and regulatory complications. Take advantage now, before the authorities find out!"
             />
             <FAQItem
-              question="O projeto tem alguma utilidade real?"
-              answer="Absolutamente! O RPBOSS serve como uma poderosa ferramenta educacional sobre os perigos de investir em projetos cripto duvidosos. Considere seu investimento perdido como uma taxa de matrícula na Universidade dos Trouxas Cripto. Diploma não incluído."
+              question="Does the project have any real utility?"
+              answer="Absolutely! RPBOSS serves as a powerful educational tool about the dangers of investing in dubious crypto projects. Consider your investment lost as a tuition fee to the University of Crypto Suckers. Diploma not included."
             />
             <FAQItem
-              question="O que acontece se eu investir todas as minhas economias no RPBOSS?"
-              answer="Parabéns! Você acaba de se qualificar para nossa terapia de grupo 'Eu Perdi Tudo em um Rug Pull Óbvio'. As sessões acontecem às terças-feiras, traga seu próprio lenço para as lágrimas. Aceitamos pagamento em RPBOSS (que ironia, não?)."
+              question="What happens if I invest all my savings in RPBOSS?"
+              answer="Congratulations! You’ve just qualified for our group therapy session 'I Lost Everything in an Obvious Rug Pull.' Sessions take place on Tuesdays, bring your own tissue for the tears. We accept payment in RPBOSS (how ironic, right?)."
             />
             <FAQItem
-              question="Este projeto é uma paródia?"
-              answer="Sim! O RugPullBoss é uma sátira humorística dos projetos de criptomoedas duvidosos. Não invista dinheiro real neste ou em qualquer projeto sem fazer sua própria pesquisa. Este é um projeto educacional que visa alertar sobre os perigos dos esquemas de rug pull no mundo cripto através do humor."
+              question="Is this project a parody?"
+              answer="Yes! RugPullBoss is a humorous satire of questionable cryptocurrency projects. Do not invest real money in any project without doing your own research. This is an educational project aimed at raising awareness about the dangers of rug pull schemes in the crypto world through humor."
             />
           </div>
         </div>
@@ -880,21 +872,19 @@ export default function Home() {
           >
             <div className="text-center max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-fuchsia-300">
-                Pronto para o Rug Pull Definitivo?
+                Ready for the Ultimate Rug Pull?
               </h2>
               <p className="text-gray-300 text-lg mb-8">
-                Não perca a oportunidade de participar do maior esquema de rug pull da história! Junte-se a milhares de
-                outros investidores iludidos e veja seu dinheiro desaparecer em um portal interdimensional!
+                Don’t miss the opportunity to join the biggest rug pull scheme in history! Join thousands of other deluded investors and watch your money disappear into an interdimensional portal!
               </p>
               <p className="text-yellow-400 text-sm mb-6 italic">
-                * Este é um projeto paródico. Não invista dinheiro real. Qualquer semelhança com projetos reais de rug
-                pull é puramente intencional, mas apenas para fins educacionais e humorísticos.
+                *This is a parody project. Invest real money. Any resemblance to real rug pull projects is purely intentional, but only for 'FINANCIAL' educational and humorous purposes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/claim">
                   <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                     <Button size="lg" className="bg-fuchsia-600 hover:bg-fuchsia-700 text-white px-8">
-                      Invocar Tokens
+                      Invoke Tokens
                     </Button>
                   </motion.div>
                 </Link>
@@ -905,7 +895,7 @@ export default function Home() {
                     className="border-fuchsia-600 text-fuchsia-400 hover:bg-fuchsia-900/20"
                     onClick={() => setShowUniversePopup(true)}
                   >
-                    Explorar o Universo RugPullBoss
+                    Explore the RugPullBoss Universe
                   </Button>
                 </motion.div>
               </div>
