@@ -1,0 +1,446 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 280 83.3% 57.8%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-transparent text-foreground;
+    background-color: transparent !important;
+  }
+
+  main {
+    background-color: transparent !important;
+  }
+}
+
+/* Garantir que os cards e outros elementos tenham fundo semi-transparente */
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Animações personalizadas */
+/* Otimizar as animações CSS para melhorar a performance */
+
+/* Simplificar a animação float para usar transform em vez de translateY */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Otimizar a animação glow para usar menos recursos */
+@keyframes glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 20px rgba(192, 38, 211, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 30px rgba(192, 38, 211, 0.7));
+  }
+}
+
+/* Adicionar will-change para melhorar a performance das animações */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite;
+  will-change: filter;
+}
+
+/* Otimizar a animação de shimmer */
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+/* Adicionar suporte para reduzir animações se o usuário preferir */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-glow,
+  .animate-pulse,
+  .animate-shimmer,
+  .shooting-star {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Adicionar classe para dispositivos de baixa performance */
+.low-perf-mode .nebula,
+.low-perf-mode .planet,
+.low-perf-mode .shooting-star {
+  display: none !important;
+}
+
+.low-perf-mode .star {
+  animation: none !important;
+}
+
+/* Estilos adicionais para o tema galáctico */
+.stars-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.nebula {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(30px);
+}
+
+.planet {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: inset -10px -10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.shooting-star {
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  transform-origin: left;
+}
+
+/* Adicionar animações de carregamento e transição */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Melhorar a acessibilidade para foco */
+:focus-visible {
+  outline: 2px solid rgba(124, 58, 237, 0.6);
+  outline-offset: 2px;
+}
+
+/* Melhorar a experiência em dispositivos móveis */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Melhorar a experiência de carregamento de imagens */
+.image-loading {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-loading::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(30, 30, 60, 0.1), rgba(60, 60, 120, 0.2), rgba(30, 30, 60, 0.1));
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Animação de órbita para símbolos de criptomoedas */
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+/* Animação de rotação para os símbolos de criptomoedas */
+.crypto-symbol > div {
+  animation: pulse 3s ease-in-out infinite;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.crypto-symbol > div:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  transform: scale(1.2);
+}
+
+/* Animação de pulso para elementos de destaque */
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s ease-in-out infinite, glow-symbol 4s ease-in-out infinite;
+}
+
+/* Animação de gradiente para fundos */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+/* Adicionar efeito de brilho para os símbolos */
+@keyframes glow-symbol {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+  }
+  50% {
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.9));
+  }
+}
+
+/* Adicionar animação de distorção onírica */
+@keyframes dreamDistort {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.05) rotate(1deg);
+  }
+  50% {
+    transform: scale(0.95) rotate(-1deg);
+  }
+  75% {
+    transform: scale(1.02) rotate(0.5deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.dream-distort {
+  animation: dreamDistort 8s infinite ease-in-out;
+  will-change: transform;
+}
+
+/* Animações para o tema RugPullBoss */
+@keyframes portalPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(192, 38, 211, 0.6), 0 0 40px rgba(138, 43, 226, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(192, 38, 211, 0.8), 0 0 60px rgba(138, 43, 226, 0.6);
+  }
+}
+
+.portal-pulse {
+  animation: portalPulse 4s infinite ease-in-out;
+}
+
+/* Efeito de texto brilhante */
+@keyframes textGlow {
+  0%,
+  100% {
+    text-shadow: 0 0 5px rgba(192, 38, 211, 0.7), 0 0 10px rgba(138, 43, 226, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 10px rgba(192, 38, 211, 0.9), 0 0 20px rgba(138, 43, 226, 0.7);
+  }
+}
+
+.text-glow {
+  animation: textGlow 3s infinite ease-in-out;
+}
+
+/* Efeito de borda mística */
+@keyframes borderGlow {
+  0%,
+  100% {
+    border-color: rgba(192, 38, 211, 0.6);
+  }
+  50% {
+    border-color: rgba(138, 43, 226, 0.8);
+  }
+}
+
+.border-glow {
+  animation: borderGlow 4s infinite ease-in-out;
+}
+
+/* Efeito de névoa para o fundo */
+.mist-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Efeito de distorção para imagens */
+@keyframes imageDistort {
+  0%,
+  100% {
+    filter: hue-rotate(0deg) brightness(1);
+  }
+  33% {
+    filter: hue-rotate(15deg) brightness(1.1);
+  }
+  66% {
+    filter: hue-rotate(-15deg) brightness(0.9);
+  }
+}
+
+.image-distort {
+  animation: imageDistort 10s infinite ease-in-out;
+}
+
+.bg-gradient-radial {
+  background: radial-gradient(circle at center, var(--tw-gradient-from) 0%, var(--tw-gradient-to) 70%);
+}
+
+/* Animações para o rodapé */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-footer {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes spin-slow-footer {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse-footer {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.footer-animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.footer-animate-float {
+  animation: float-footer 3s ease-in-out infinite;
+}
+
+.footer-animate-spin-slow {
+  animation: spin-slow-footer 3s linear infinite;
+}
+
+.footer-animate-pulse {
+  animation: pulse-footer 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Efeito de tooltip para frases do RugPullBoss */
+.rugpull-tooltip {
+  position: fixed;
+  z-index: 50;
+  max-width: 300px;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(192, 38, 211, 0.5);
+  border-radius: 0.5rem;
+  color: rgba(192, 38, 211, 0.9);
+  font-size: 0.875rem;
+  pointer-events: none;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 15px rgba(192, 38, 211, 0.4);
+  transition: opacity 0.2s ease-in-out;
+}
+

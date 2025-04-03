@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual do Universo RugPullBoss</title>
+    <style>
+        :root {
+            --bg-color: #0f0f13;
+            --text-color: #e2e2e2;
+            --primary: #a855f7;
+            --secondary: #3b82f6;
+            --accent: #d946ef;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --success: #10b981;
+            --border-color: rgba(168, 85, 247, 0.3);
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h1 {
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        h2 {
+            color: var(--primary);
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        h3 {
+            color: var(--accent);
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        ul, ol {
+            margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        code {
+            font-family: 'Fira Code', 'Courier New', Courier, monospace;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 0.2rem 0.4rem;
+            border-radius: 0.25rem;
+            font-size: 0.9rem;
+        }
+        
+        pre {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-color);
+        }
+        
+        pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+        
+        .warning {
+            background-color: rgba(245, 158, 11, 0.1);
+            border-left: 4px solid var(--warning);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+        
+        .danger {
+            background-color: rgba(239, 68, 68, 0.1);
+            border-left: 4px solid var(--danger);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+        
+        .info {
+            background-color: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid var(--secondary);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+        
+        .success {
+            background-color: rgba(16, 185, 129, 0.1);
+            border-left: 4px solid var(--success);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-color);
+        }
+        
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        th {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+        
+        .section {
+            margin-bottom: 3rem;
+        }
+        
+        .subsection {
+            margin-left: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Manual do Universo RugPullBoss</h1>
+            <p>Guia completo para configuração, personalização e manutenção do ecossistema satírico</p>
+        </header>
+        
+        <div class="section">
+            <h2>1. Introdução ao Universo RugPullBoss</h2>
+            
+            <p>O RugPullBoss é um projeto satírico educacional que visa conscientizar sobre os perigos dos esquemas fraudulentos no mundo das criptomoedas através do humor e da paródia. Este manual contém todas as informações necessárias para configurar, personalizar e manter o ecossistema RugPullBoss.</p>
+            
+            <div class="info">
+                <strong>Nota:</strong> Embora o RugPullBoss seja uma sátira, seu propósito é educacional. Todas as referências a fraudes e manipulações são feitas com o objetivo de alertar e educar os usuários sobre práticas reais no mercado de criptomoedas.
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>2. Configuração do Ambiente</h2>
+            
+            <h3>2.1. Requisitos do Sistema</h3>
+            <ul>
+                <li>Node.js v16.0.0 ou superior</li>
+                <li>Next.js 14.0.0 ou superior</li>
+                <li>React 18.0.0 ou superior</li>
+                <li>Tailwind CSS 3.0.0 ou superior</li>
+                <li>Banco de dados (MongoDB, PostgreSQL ou MySQL)</li>
+            </ul>
+            
+            <h3>2.2. Variáveis de Ambiente</h3>
+            <p>Crie um arquivo <code>.env.local</code> na raiz do projeto com as seguintes variáveis:</p>
+            
+            <pre><code># Configurações de Autenticação
+ADMIN_USERNAME=seu_usuario_admin
+ADMIN_PASSWORD=sua_senha_admin
+NEXT_PUBLIC_ADMIN_USERNAME=seu_usuario_admin
+NEXT_PUBLIC_ADMIN_PASSWORD=sua_senha_admin
+
+# Configurações de API
+WHATSAPP_API_KEY=sua_chave_api_whatsapp
+NEXT_PUBLIC_API_URL=http://localhost:3000/api
+
+# Configurações de Banco de Dados
+DATABASE_URL=sua_url_de_conexao
+
+# Configurações de Blockchain
+NEXT_PUBLIC_CONTRACT_ADDRESS=0x1234567890abcdef1234567890abcdef12345678
+NEXT_PUBLIC_CHAIN_ID=1</code></pre>
+            
+            <h3>2.3. Configuração do Relógio Cósmico</h3>
+            <p>O Relógio Cósmico é um componente central que sincroniza todos os eventos do universo RugPullBoss. Para configurá-lo:</p>
+            
+            <ol>
+                <li>Abra o arquivo <code>components/cosmic-clock.tsx</code></li>
+                <li>Ajuste o fuso horário para sua região:</li>
+            </ol>
+            
+            <pre><code>// Configuração do fuso horário
+const TIMEZONE = 'America/Sao_Paulo'; // Altere para seu fuso horário
+
+// Configuração dos ciclos de manipulação
+const MANIPULATION_CYCLES = {
+  pumpAndDump: 48, // horas
+  rugPull: 168, // horas (7 dias)
+  fakeAnnouncement: 72, // horas (3 dias)
+};</code></pre>
+        </div>
+        
+        <div class="section">
+            <h3>2.4. Instalação e Inicialização</h3>
+            
+            <pre><code># Instalar dependências
+npm install
+
+# Iniciar em modo de desenvolvimento
+npm run dev
+
+# Construir para produção
+npm run build
+
+# Iniciar em modo de produção
+npm start</code></pre>
+        </div>
+        
+        <div class="section">
+            <h2>3. Configuração da Página do Universo</h2>
+            
+            <h3>3.1. Estrutura de Arquivos</h3>
+            <p>A página do Universo RugPullBoss é composta pelos seguintes arquivos principais:</p>
+            
+            <ul>
+                <li><code>app/universo/page.tsx</code> - Componente principal da página</li>
+                <li><code>components/dimensional-map.tsx</code> - Mapa dimensional (roadmap satírico)</li>
+                <li><code>components/mystic-protection.tsx</code> - Componente de proteção mística</li>
+                <li><code>components/illusory-economy.tsx</code> - Componente de economia ilusória</li>
+                <li><code>components/cosmic-gallery.tsx</code> - Galeria de imagens cósmicas</li>
+                <li><code>components/portal-animation.tsx</code> - Animações de portal</li>
+                <li><code>components/dream-symbols.tsx</code> - Símbolos oníricos flutuantes</li>
+            </ul>
+            
+            <h3>3.2. Personalização da Página do Universo</h3>
+            <p>Para personalizar a página do Universo RugPullBoss:</p>
+            
+            <ol>
+                <li>Abra o arquivo <code>app/universo/page.tsx</code></li>
+                <li>Modifique o título, subtítulo e descrições conforme necessário</li>
+                <li>Ajuste as seções e componentes conforme sua preferência</li>
+            </ol>
+            
+            <pre><code>// Em app/universo/page.tsx
+export default function UniversoPage() {
+  return (
+    <div className="min-h-screen bg-black text-white">
+      {/* Hero Section - Modifique o título e subtítulo aqui */}
+      <section className="relative py-20 overflow-hidden">
+        <div className="container mx-auto px-4 relative z-10">
+          <h1 className="text-4xl md:text-6xl font-bold text-center mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-fuchsia-500 to-indigo-400">
+            Universo RugPullBoss
+          </h1>
+          <p className="text-xl md:text-2xl text-center max-w-3xl mx-auto text-fuchsia-200 mb-12">
+            Uma jornada cósmica pelos mistérios e perigos do mundo cripto
+          </p>
+          
+          {/* Adicione ou modifique as badges aqui */}
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
+            <span className="px-4 py-2 rounded-full bg-purple-900/50 text-purple-200 border border-purple-700/50">
+              Sátira Cósmica
+            </span>
+            {/* Adicione mais badges conforme necessário */}
+          </div>
+        </div>
+      </section>
+      
+      {/* Outras seções - Adicione, remova ou modifique conforme necessário */}
+    </div>
+  );
+}</code></pre>
+            
+            <h3>3.3. Configuração dos Componentes</h3>
+            <p>Cada componente pode ser personalizado individualmente:</p>
+            
+            <h4>3.3.1. Mapa Dimensional (DimensionalMap)</h4>
+            <pre><code>// Em components/dimensional-map.tsx
+const phases = [
+  {
+    name: "Fase Inicial", // Modifique o nome da fase
+    description: "Criação do universo RugPullBoss", // Modifique a descrição
+    color: "text-blue-400", // Modifique a cor (classes Tailwind)
+    bgColor: "bg-blue-900/20",
+    borderColor: "border-blue-700/30",
+    icon: Milestone, // Modifique o ícone (importe do lucide-react)
+    milestones: [
+      "Lançamento do token $RUG", // Modifique os marcos
+      "Criação da comunidade",
+      // Adicione mais marcos conforme necessário
+    ]
+  },
+  // Adicione mais fases conforme necessário
+];</code></pre>
+            
+            <h4>3.3.2. Proteção Mística (MysticProtection)</h4>
+            <pre><code>// Em components/mystic-protection.tsx
+const protectionLevels = [
+  {
+    title: "Proteção Básica", // Modifique o título
+    description: "Escudo astral contra rug pulls", // Modifique a descrição
+    icon: Shield, // Modifique o ícone (importe do lucide-react)
+    color: "text-blue-400", // Modifique a cor (classes Tailwind)
+    bgColor: "bg-blue-900/20",
+    borderColor: "border-blue-700/30"
+  },
+  // Adicione mais níveis de proteção conforme necessário
+];</code></pre>
+            
+            <h4>3.3.3. Economia Ilusória (IllusoryEconomy)</h4>
+            <pre><code>// Em components/illusory-economy.tsx
+const tokens = [
+  { 
+    name: "RUG", // Modifique o símbolo do token
+    fullName: "RugPullCoin", // Modifique o nome completo
+    price: "$0.00042", // Modifique o preço fictício
+    change: "+420%", // Modifique a mudança de preço
+    color: "text-fuchsia-400", // Modifique a cor (classes Tailwind)
+    description: "Token governança do ecossistema" // Modifique a descrição
+  },
+  // Adicione mais tokens conforme necessário
+];</code></pre>
+        </div>
+        
+        <div class="section">
+            <h2>4. Adicionando Novos Elementos ao Universo</h2>
+            
+            <h3>4.1. Criando Novos Personagens</h3>
+            <p>Para adicionar novos personagens ao universo RugPullBoss:</p>
+            
+            <ol>
+                <li>Crie um novo arquivo <code>components/cosmic-character.tsx</code></li>
+                <li>Implemente o componente com os detalhes do personagem</li>
+                <li>Importe e utilize o componente na página do universo</li>
+            </ol>
+            
+            <pre><code>// Em components/cosmic-character.tsx
+import { FC } from 'react';
+import Image from 'next/image';
+
+interface CharacterProps {
+  name: string;
+  title: string;
+  description: string;
+  imagePath: string;
+  powers: string[];
+}
+
+const CosmicCharacter: FC<CharacterProps> = ({
+  name,
+  title,
+  description,
+  imagePath,
+  powers
+}) => {
+  return (
+    <div className="bg-gradient-to-b from-purple-900/30 to-indigo-900/30 rounded-lg p-6 border border-purple-700/30">
+      <div className="flex flex-col md:flex-row gap-6">
+        <div className="w-full md:w-1/3">
+          <div className="relative h-60 w-full rounded-lg overflow-hidden">
+            <Image
+              src={imagePath || "/placeholder.svg"}
+              alt={name}
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
+        <div className="w-full md:w-2/3">
+          <h3 className="text-2xl font-bold text-fuchsia-400 mb-2">{name}</h3>
+          <p className="text-lg text-purple-300 mb-4">{title}</p>
+          <p className="text-gray-300 mb-4">{description}</p>
+          <div>
+            <h4 className="text-lg font-semibold text-fuchsia-300 mb-2">Poderes Cósmicos:</h4>
+            <ul className="list-disc list-inside text-gray-300">
+              {powers.map((power, index) => (
+                <li key={index}>{power}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default CosmicCharacter;</code></pre>
+            
+            <h3>4.2. Adicionando Artefatos Místicos</h3>
+            <p>Para adicionar artefatos místicos ao universo:</p>
+            
+            <ol>
+                <li>Crie um novo arquivo <code>components/mystic-artifact.tsx</code></li>
+                <li>Implemente o componente com os detalhes do artefato</li>
+                <li>Importe e utilize o componente na página do universo</li>
+            </ol>
+            
+            <pre><code>// Em components/mystic-artifact.tsx
+import { FC } from 'react';
+import { Sparkles } from 'lucide-react';
+
+interface ArtifactProps {
+  name: string;
+  description: string;
+  power: string;
+  rarity: 'comum' | 'raro' | 'épico' | 'lendário';
+}
+
+const MysticArtifact: FC<ArtifactProps> = ({
+  name,
+  description,
+  power,
+  rarity
+}) => {
+  // Definir cores com base na raridade
+  const rarityColors = {
+    comum: 'text-blue-400 border-blue-500/50 bg-blue-900/20',
+    raro: 'text-purple-400 border-purple-500/50 bg-purple-900/20',
+    épico: 'text-fuchsia-400 border-fuchsia-500/50 bg-fuchsia-900/20',
+    lendário: 'text-amber-400 border-amber-500/50 bg-amber-900/20',
+  };
+  
+  const colorClass = rarityColors[rarity];
+  
+  return (
+    <div className={`rounded-lg p-6 border ${colorClass}`}>
+      <div className="flex items-center mb-4">
+        <Sparkles className="h-6 w-6 mr-3" />
+        <h3 className="text-xl font-bold">{name}</h3>
+      </div>
+      <p className="text-gray-300 mb-4">{description}</p>
+      <div className="bg-black/30 p-4 rounded-lg">
+        <h4 className="text-lg font-semibold mb-2">Poder Místico:</h4>
+        <p className="text-gray-300">{power}</p>
+      </div>
+      <div className="mt-4 text-right">
+        <span className="px-3 py-1 rounded-full text-sm uppercase font-bold bg-black/30">
+          {rarity}
+        </span>
+      </div>
+    </div>
+  );
+};
+
+export default MysticArtifact;</code></pre>
+            
+            <h3>4.3. Integrando os Novos Elementos</h3>
+            <p>Para integrar os novos elementos na página do universo:</p>
+            
+            <pre><code>// Em app/universo/page.tsx
+import CosmicCharacter from '@/components/cosmic-character';
+import MysticArtifact from '@/components/mystic-artifact';
+
+export default function UniversoPage() {
+  return (
+    <div className="min-h-screen bg-black text-white">
+      {/* Seções existentes */}
+      
+      {/* Nova seção de personagens */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500">
+            Entidades do Universo RugPull
+          </h2>
+          
+          <div className="grid grid-cols-1 gap-8 mb-12">
+            <CosmicCharacter
+              name="RugPull Boss"
+              title="Mestre das Ilusões Financeiras"
+              description="O enigmático ser que controla os fios invisíveis do mercado cripto, manipulando preços e emoções com igual destreza."
+              imagePath="/images/rugpull-boss.png"
+              powers={[
+                "Manipulação de Liquidez",
+                "Criação de FOMO Cósmico",
+                "Invisibilidade Regulatória",
+                "Controle Mental de Investidores"
+              ]}
+            />
+            
+            {/* Adicione mais personagens conforme necessário */}
+          </div>
+          
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-fuchsia-500">
+            Artefatos de Poder
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <MysticArtifact
+              name="Orbe da Liquidez Infinita"
+              description="Um artefato místico que concede ao seu portador o poder de criar a ilusão de liquidez ilimitada."
+              power="Cria um pool de liquidez que parece profundo, mas desaparece quando tentam vender grandes quantidades."
+              rarity="lendário"
+            />
+            
+            {/* Adicione mais artefatos conforme necessário */}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}</code></pre>
+        </div>
+        
+        <div class="section">
+            <h2>5. Configuração do Cronômetro Cósmico</h2>
+            
+            <h3>5.1. Personalizando o CountdownTimer</h3>
+            <p>O componente <code>CountdownTimer</code> pode ser configurado para diferentes eventos:</p>
+            
+            <pre><code>// Em components/countdown-timer.tsx
+import { useState, useEffect, useMemo } from 'react';
+import { motion } from 'framer-motion';
+
+interface CountdownTimerProps {
+  customLaunchDate?: Date | string;
+  title?: string;
+  subtitle?: string;
+  onComplete?: () => void;
+}
+
+export default function CountdownTimer({
+  customLaunchDate,
+  title = "Próximo Evento Cósmico",
+  subtitle = "Prepare-se para o próximo acontecimento no universo RugPullBoss",
+  onComplete
+}: CountdownTimerProps) {
+  // Calcular a data de lançamento (30 dias a partir de agora por padrão)
+  const launchDate = useMemo(() => {
+    if (customLaunchDate) {
+      return new Date(customLaunchDate).getTime();
+    }
+    
+    const defaultDate = new Date();
+    defaultDate.setDate(defaultDate.getDate() + 30);
+    return defaultDate.getTime();
+  }, [customLaunchDate]);
+  
+  // Resto do código...
+}</code></pre>
+            
+            <h3>5.2. Utilizando o Cronômetro em Diferentes Páginas</h3>
+            <p>Para utilizar o cronômetro em diferentes páginas com configurações personalizadas:</p>
+            
+            <pre><code>// Em qualquer página
+import CountdownTimer from '@/components/countdown-timer';
+
+export default function SuaPagina() {
+  return (
+    <div>
+      {/* Cronômetro para um evento específico */}
+      <CountdownTimer
+        customLaunchDate="2024-06-15T00:00:00"
+        title="Grande Rugpull Cósmico"
+        subtitle="Prepare-se para o maior evento de desaparecimento de tokens da história"
+        onComplete={() => {
+          // Ação a ser executada quando o cronômetro chegar a zero
+          console.log("Evento iniciado!");
+        }}
+      />
+    </div>
+  );
+}</code></pre>
+            
+            <h3>5.3. Configurando Múltiplos Cronômetros</h3>
+            <p>Para configurar múltiplos cronômetros para diferentes eventos:</p>
+            
+            <pre><code>// Em lib/cosmic-events.ts
+export const COSMIC_EVENTS = [
+  {
+    id: 'rugpull-event',
+    title: 'Grande Rugpull Cósmico',
+    subtitle: 'O maior evento de desaparecimento de tokens da história',
+    date: '2024-06-15T00:00:00',
+    description: 'Neste evento, os tokens desaparecerão mais rápido que a luz em um buraco negro.'
+  },
+  {
+    id: 'token-launch',
+    title: 'Lançamento do Token $SCAM',
+    subtitle: 'Um novo token com tokenomics revolucionárias',
+    date: '2024-05-01T12:00:00',
+    description: 'Um token com 99% de taxa de transferência e 1% para o desenvolvedor.'
+  },
+  // Adicione mais eventos conforme necessário
+];
+
+// Em uma página com múltiplos cronômetros
+import { COSMIC_EVENTS } from '@/lib/cosmic-events';
+import CountdownTimer from '@/components/countdown-timer';
+
+export default function EventosPage() {
+  return (
+    <div className="container mx-auto px-4 py-12">
+      <h1 className="text-4xl font-bold text-center mb-12">Eventos Cósmicos</h1>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {COSMIC_EVENTS.map(event => (
+          <div key={event.id} className="bg-gradient-to-b from-purple-900/30 to-indigo-900/30 rounded-lg p-6 border border-purple-700/30">
+            <h2 className="text-2xl font-bold text-fuchsia-400 mb-4">{event.title}</h2>
+            <p className="text-gray-300 mb-6">{event.description}</p>
+            <CountdownTimer
+              customLaunchDate={event.date}
+              title={event.title}
+              subtitle={event.subtitle}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}</code></pre>
+        </div>
+        
+        <div class="section">
+            <h2>6. Manutenção e Atualizações</h2>
+            
+            <h3>6.1. Atualizando o Conteúdo Satírico</h3>
+            <p>Para manter o conteúdo relevante e atual:</p>
+            <ul>
+                <li>Atualize regularmente os termos do glossário com novas tendências de fraude</li>
+                <li>Adicione novos personagens baseados em figuras controversas do mundo cripto</li>
+                <li>Crie novos cenários satíricos baseados em eventos reais do mercado</li>
+            </ul>
+            
+            <h3>6.2. Monitoramento de Performance</h3>
+            <p>O componente <code>PerformanceToggle</code> permite alternar entre modos de renderização para melhorar a performance em dispositivos menos potentes:</p>
+            
+            <pre><code>// Em components/performance-toggle.tsx
+// Configurações de performance
+const PERFORMANCE_SETTINGS = {
+  high: {
+    animations: true,
+    particleCount: 100,
+    backgroundEffects: true,
+    shadowEffects: true
+  },
+  medium: {
+    animations: true,
+    particleCount: 50,
+    backgroundEffects: true,
+    shadowEffects: false
+  },
+  low: {
+    animations: false,
+    particleCount: 0,
+    backgroundEffects: false,
+    shadowEffects: false
+  }
+};</code></pre>
+            
+            <h3>6.3. Backup e Restauração</h3>
+            <p>Para fazer backup do conteúdo satírico:</p>
+            
+            <pre><code># Script para backup do conteúdo
+npm run backup:satire
+
+# Script para restauração do conteúdo
+npm run restore:satire -- --from=backup_20230101.json</code></pre>
+        </div>
+        
+        <div class="section">
+            <h2>7. Considerações Finais</h2>
+            
+            <div class="info">
+                <strong>Propósito Educacional:</strong> Lembre-se que o RugPullBoss é uma ferramenta educacional que usa sátira para alertar sobre perigos reais. Mantenha sempre esse equilíbrio entre humor e informação útil.
+            </div>
+            
+            <div class="warning">
+                <strong>Atualizações Regulares:</strong> O mundo das criptomoedas evolui rapidamente, assim como os esquemas fraudulentos. Mantenha o conteúdo atualizado para refletir as tendências atuais.
+            </div>
+            
+            <div class="danger">
+                <strong>Aviso Legal:</strong> Inclua sempre avisos claros de que o conteúdo é satírico e educacional, para evitar mal-entendidos.
+            </div>
+            
+            <div class="success">
+                <strong>Feedback da Comunidade:</strong> Incentive os usuários a contribuírem com sugestões para novos termos, personagens e cenários satíricos.
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2023-2025 RugPullBoss - Uma Sátira Educacional sobre Fraudes em Criptomoedas</p>
+            <p>Versão 1.0.0 - Última atualização: 24 de março de 2025</p>
+        </div>
+    </div>
+</body>
+</html>
+
