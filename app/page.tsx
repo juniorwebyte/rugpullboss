@@ -651,42 +651,42 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-gray-300">Public Sale and Invocation</span>
-                  <span className="text-fuchsia-400 font-medium">40%</span>
+                  <span className="text-fuchsia-400 font-medium">60%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
-                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "40%" }}></div>
+                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "60%" }}></div>
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-gray-300">Rewards and Incentives</span>
-                  <span className="text-fuchsia-400 font-medium">20%</span>
+                  <span className="text-fuchsia-400 font-medium">15%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
-                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "20%" }}></div>
+                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "15%" }}></div>
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
-                  <span className="text-gray-300">Reserve for Mansion in Monaco</span>
-                  <span className="text-fuchsia-400 font-medium">20%</span>
+                  <span className="text-gray-300">Reserve for Mansion in Monaco (Marketing)</span>
+                  <span className="text-fuchsia-400 font-medium">15%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
-                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "20%" }}></div>
+                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "15%" }}></div>
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
                   <span className="text-gray-300">Partnerships and Bribes</span>
-                  <span className="text-fuchsia-400 font-medium">10%</span>
+                  <span className="text-fuchsia-400 font-medium">5%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
-                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "10%" }}></div>
+                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "5%" }}></div>
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
-                  <span className="text-gray-300">Team and Operations</span>
-                  <span className="text-fuchsia-400 font-medium">10%</span>
+                  <span className="text-gray-300">Team & Operations</span>
+                  <span className="text-fuchsia-400 font-medium">5%</span>
                 </div>
                 <div className="w-full bg-indigo-900/30 rounded-full h-4">
-                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "10%" }}></div>
+                  <div className="bg-fuchsia-500 h-4 rounded-full" style={{ width: "5%" }}></div>
                 </div>
               </div>
             </motion.div>
@@ -706,7 +706,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="text-lg font-medium text-fuchsia-300">Total Supply</h4>
-                    <p className="text-gray-400">5.000.000.000 $RPBOSS</p>
+                    <p className="text-gray-400">433.666.000.000.000 $RPBOSS</p>
                   </div>
                 </div>
 

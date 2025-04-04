@@ -28,16 +28,16 @@ export default function ClaimPage() {
         <div className="mb-6 bg-blue-900/20 border border-blue-700/30 rounded-lg p-4 flex items-start">
           <InfoIcon className="h-5 w-5 text-blue-400 mr-3 mt-0.5 flex-shrink-0" />
           <p className="text-gray-300">
-            Para mais informações ou em caso de demora no envio dos seus tokens 💰, entre em contato conosco por e-mail{" "}
+            For more information or in case of a delay in receiving your tokens 💰, contact us via email.{" "}
             <span className="flex items-center gap-1 text-blue-400 inline-flex">
-              <Mail className="h-4 w-4" /> contato@streetdogcoin.com
+              <Mail className="h-4 w-4" /> contact@rugpullboss.com
             </span>
           </p>
         </div>
 
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-2 text-purple-400">Reivindicar Tokens</h1>
-          <p className="text-gray-300">Complete as etapas abaixo para reivindicar seus tokens $WBC</p>
+          <h1 className="text-3xl font-bold mb-2 text-purple-400">Claim Tokens</h1>
+          <p className="text-gray-300">Complete the steps below to claim your $RPBOSS tokens.</p>
         </div>
 
         <LazyAirdropClaim onWalletUpdate={handleWalletUpdate} />
